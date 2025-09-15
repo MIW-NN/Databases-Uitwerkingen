@@ -1,0 +1,280 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.14">
+  <diagram name="Page-1" id="-RBlTsKUJcB6IDNfjl4F">
+    <mxGraphModel dx="1050" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PimH5sS24UOFw-twD5PS-1" value="&lt;div&gt;0NF&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-2" value="Bestelling" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-3" value="patientnr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-4" value="patientnaam" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-5" value="geboortedatum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-6" value="huisartscode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-7" value="huisartsnaam" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-8" value="huisarts plaats" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-9" value="datum aankoop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-10" value="medicijncode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-11" value="omschrijving" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-12" value="aantal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-13" value="&lt;div&gt;1NF&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-14" value="Patient" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-15" value="patientnr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="217.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-16" value="patientnaam" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="217.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-17" value="geboortedatum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="217.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-18" value="huisartscode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="217.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-19" value="huisartsnaam" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="217.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-20" value="huisarts plaats" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="217.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-21" value="datum aankoop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-22" value="medicijncode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-23" value="omschrijving" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-24" value="aantal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-25" value="patientnr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-26" value="Bestelregel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="345" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="210" as="sourcePoint" />
+            <mxPoint x="260" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-29" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="320" as="sourcePoint" />
+            <mxPoint x="500" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PimH5sS24UOFw-twD5PS-25" target="PimH5sS24UOFw-twD5PS-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="490" as="sourcePoint" />
+            <mxPoint x="270" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-31" value="&lt;div&gt;2NF&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="445" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-32" value="Patient" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="495" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-33" value="patientnr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="482.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-34" value="patientnaam" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="482.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-35" value="geboortedatum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="482.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-36" value="huisartscode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="482.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-37" value="huisartsnaam" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="482.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-38" value="huisarts plaats" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="482.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-39" value="datum aankoop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="595" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-40" value="medicijncode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="595" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-41" value="omschrijving" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-42" value="aantal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="595" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-43" value="patientnr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="595" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-44" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="475" as="sourcePoint" />
+            <mxPoint x="260" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-45" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="585" as="sourcePoint" />
+            <mxPoint x="500" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PimH5sS24UOFw-twD5PS-43" target="PimH5sS24UOFw-twD5PS-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="755" as="sourcePoint" />
+            <mxPoint x="270" y="705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-47" value="medicijncode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-48" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="690" as="sourcePoint" />
+            <mxPoint x="500" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PimH5sS24UOFw-twD5PS-40" target="PimH5sS24UOFw-twD5PS-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="620" as="sourcePoint" />
+            <mxPoint x="460" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-50" value="Bestelregel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="610" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-51" value="&lt;div&gt;Medicijn&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="715" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-52" value="&lt;div&gt;3NF&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-53" value="Patient" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="980" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-54" value="patientnr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="967.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-55" value="patientnaam" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="967.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-56" value="geboortedatum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="967.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-57" value="huisartscode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="967.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-58" value="huisartsnaam" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-59" value="huisarts plaats" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-60" value="datum aankoop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-61" value="medicijncode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-62" value="omschrijving" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="1185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-63" value="aantal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-64" value="patientnr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-65" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="145" y="960" as="sourcePoint" />
+            <mxPoint x="265" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-66" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="145" y="1070" as="sourcePoint" />
+            <mxPoint x="505" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PimH5sS24UOFw-twD5PS-64" target="PimH5sS24UOFw-twD5PS-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="225" y="1240" as="sourcePoint" />
+            <mxPoint x="275" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-68" value="medicijncode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-69" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="1175" as="sourcePoint" />
+            <mxPoint x="505" y="1175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-70" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PimH5sS24UOFw-twD5PS-61" target="PimH5sS24UOFw-twD5PS-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="415" y="1105" as="sourcePoint" />
+            <mxPoint x="465" y="1055" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-71" value="Bestelregel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1095" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-72" value="&lt;div&gt;Medicijn&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1200" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-74" value="huisartscode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-75" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="850" as="sourcePoint" />
+            <mxPoint x="630" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-76" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PimH5sS24UOFw-twD5PS-57" target="PimH5sS24UOFw-twD5PS-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="960" as="sourcePoint" />
+            <mxPoint x="460" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PimH5sS24UOFw-twD5PS-77" value="&lt;div&gt;Huisarts&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="875" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
