@@ -33,7 +33,7 @@
             <mxPoint y="16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7aWe7pPsqnbwsjY7iVeB-12" value="" style="endArrow=ERzeroToMany;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endFill=0;" parent="1" source="7aWe7pPsqnbwsjY7iVeB-2" target="7aWe7pPsqnbwsjY7iVeB-10" edge="1">
+        <mxCell id="7aWe7pPsqnbwsjY7iVeB-12" value="" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endFill=0;" parent="1" source="7aWe7pPsqnbwsjY7iVeB-2" target="7aWe7pPsqnbwsjY7iVeB-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="260" as="sourcePoint" />
             <mxPoint x="680" y="260" as="targetPoint" />
@@ -47,7 +47,7 @@
         <mxCell id="7aWe7pPsqnbwsjY7iVeB-16" value="Het valt te beargumenteren dat ledental een afgeleide waarde is." style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="190" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XiMKyzaSkR-OPNnOojOJ-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.412;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.62;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7aWe7pPsqnbwsjY7iVeB-16" target="7aWe7pPsqnbwsjY7iVeB-4">
+        <mxCell id="XiMKyzaSkR-OPNnOojOJ-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.412;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.62;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7aWe7pPsqnbwsjY7iVeB-16" target="7aWe7pPsqnbwsjY7iVeB-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="50" y="190" as="sourcePoint" />
             <mxPoint x="470" y="290" as="targetPoint" />
