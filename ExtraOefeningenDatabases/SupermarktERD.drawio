@@ -1,0 +1,261 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Pagina-1" id="xiaSo9g6t_jz6KCXlaac">
+    <mxGraphModel dx="1212" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JrFvl1hGiMh867X_fG7i-1" value="Klant" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-2" value="&lt;u&gt;klantcode&lt;/u&gt;&lt;div&gt;klantnaam&lt;/div&gt;&lt;div&gt;e-mailadres&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="JrFvl1hGiMh867X_fG7i-1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-3" value="Bonregel" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="300" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-4" value="&lt;u&gt;datum_en_tijd&lt;/u&gt;&lt;div&gt;&lt;u&gt;klantcode&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;productcode&lt;br&gt;&lt;/u&gt;&lt;div&gt;aantal&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="JrFvl1hGiMh867X_fG7i-3">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-5" value="Product" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-6" value="&lt;u&gt;productcode&lt;/u&gt; (EAN-13)&lt;div&gt;productnaam&lt;/div&gt;&lt;div&gt;korte_naam&lt;/div&gt;&lt;div&gt;prijs&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="JrFvl1hGiMh867X_fG7i-5">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-8" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERmandOne;rounded=0;elbow=vertical;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startFill=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="JrFvl1hGiMh867X_fG7i-6" target="JrFvl1hGiMh867X_fG7i-4">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="680" y="300" as="sourcePoint" />
+            <mxPoint x="676" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-36" value="is gekocht tijdens" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JrFvl1hGiMh867X_fG7i-8">
+          <mxGeometry x="-0.1986" y="4" relative="1" as="geometry">
+            <mxPoint x="5" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-10" value="Aankoop" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="80" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-11" value="&lt;u&gt;datum_en_tijd&lt;/u&gt;&lt;div&gt;&lt;u&gt;klantcode&lt;/u&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="JrFvl1hGiMh867X_fG7i-10">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-14" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERmandOne;rounded=0;elbow=horizontal;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startFill=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="JrFvl1hGiMh867X_fG7i-2" target="JrFvl1hGiMh867X_fG7i-11">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="270" y="230" as="sourcePoint" />
+            <mxPoint x="410" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-34" value="doet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JrFvl1hGiMh867X_fG7i-14">
+          <mxGeometry x="0.3" y="2" relative="1" as="geometry">
+            <mxPoint x="-21" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-15" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERmandOne;rounded=0;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JrFvl1hGiMh867X_fG7i-11" target="JrFvl1hGiMh867X_fG7i-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="480" y="250" as="sourcePoint" />
+            <mxPoint x="620" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-35" value="bevat" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JrFvl1hGiMh867X_fG7i-15">
+          <mxGeometry x="-0.26" y="-2" relative="1" as="geometry">
+            <mxPoint x="22" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-16" value="Klant" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="560" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-17" value="&lt;u&gt;klantcode&lt;/u&gt;&lt;div&gt;klantnaam&lt;/div&gt;&lt;div&gt;e-mailadres&lt;/div&gt;&lt;div&gt;score&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="JrFvl1hGiMh867X_fG7i-16">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-18" value="Bonregel" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="780" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-19" value="&lt;u&gt;datum_en_tijd&lt;/u&gt;&lt;div&gt;&lt;u&gt;klantcode&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;productcode&lt;br&gt;&lt;/u&gt;&lt;div&gt;aantal&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="JrFvl1hGiMh867X_fG7i-18">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-20" value="Product" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="780" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-21" value="&lt;u&gt;productcode&lt;/u&gt; (EAN-13)&lt;div&gt;productnaam&lt;/div&gt;&lt;div&gt;korte_naam&lt;/div&gt;&lt;div&gt;prijs&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="JrFvl1hGiMh867X_fG7i-20">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-22" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERmandOne;rounded=0;elbow=vertical;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startFill=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="JrFvl1hGiMh867X_fG7i-21" target="JrFvl1hGiMh867X_fG7i-19">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="690" y="780" as="sourcePoint" />
+            <mxPoint x="686" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-23" value="Aankoop" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="560" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-24" value="&lt;u&gt;datum_en_tijd&lt;/u&gt;&lt;div&gt;&lt;u&gt;klantcode&lt;/u&gt;&lt;/div&gt;&lt;div&gt;afreken_type&lt;/div&gt;&lt;div&gt;controle&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="JrFvl1hGiMh867X_fG7i-23">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-25" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERmandOne;rounded=0;elbow=vertical;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startFill=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="JrFvl1hGiMh867X_fG7i-17" target="JrFvl1hGiMh867X_fG7i-24">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="280" y="710" as="sourcePoint" />
+            <mxPoint x="420" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-26" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERmandOne;rounded=0;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JrFvl1hGiMh867X_fG7i-24" target="JrFvl1hGiMh867X_fG7i-18">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="490" y="730" as="sourcePoint" />
+            <mxPoint x="630" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-27" value="Actie" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="770" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-28" value="&lt;u&gt;actiecode&lt;/u&gt;&lt;div&gt;actietekst&lt;/div&gt;&lt;div&gt;aantal_producten&lt;/div&gt;&lt;div&gt;actie_prijs&lt;/div&gt;&lt;div&gt;startdatum&lt;/div&gt;&lt;div&gt;einddatum&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="JrFvl1hGiMh867X_fG7i-27">
+          <mxGeometry y="50" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-31" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;startArrow=ERzeroToMany;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;startFill=0;endFill=0;" edge="1" parent="1" source="JrFvl1hGiMh867X_fG7i-19" target="JrFvl1hGiMh867X_fG7i-28">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="430" y="1120" as="sourcePoint" />
+            <mxPoint x="530" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-41" value="past toe" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JrFvl1hGiMh867X_fG7i-31">
+          <mxGeometry x="-0.2357" y="1" relative="1" as="geometry">
+            <mxPoint x="8" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-32" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;elbow=vertical;endFill=0;" edge="1" parent="1" source="JrFvl1hGiMh867X_fG7i-21" target="JrFvl1hGiMh867X_fG7i-28">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="400" y="1100" as="sourcePoint" />
+            <mxPoint x="500" y="1000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-42" value="betreft" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JrFvl1hGiMh867X_fG7i-32">
+          <mxGeometry x="0.1723" y="1" relative="1" as="geometry">
+            <mxPoint x="-31" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-37" value="doet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="300" y="140" as="geometry">
+            <mxPoint x="13" y="471" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-38" value="is gekocht tijdens" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="310" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-39" value="bevat" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="480" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-40" value="bevat" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="500" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-43" value="Klant" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1060" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-44" value="&lt;u&gt;klantcode&lt;/u&gt;&lt;div&gt;klantnaam&lt;/div&gt;&lt;div&gt;e-mailadres&lt;/div&gt;&lt;div&gt;score&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="JrFvl1hGiMh867X_fG7i-43">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-45" value="Bonregel" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1280" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-46" value="&lt;u&gt;datum_en_tijd&lt;/u&gt;&lt;div&gt;&lt;u&gt;klantcode&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;productcode&lt;br&gt;&lt;/u&gt;&lt;div&gt;aantal&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="JrFvl1hGiMh867X_fG7i-45">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-47" value="Product" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1280" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-48" value="&lt;u&gt;productcode&lt;/u&gt; (EAN-13)&lt;div&gt;productnaam&lt;/div&gt;&lt;div&gt;korte_naam&lt;/div&gt;&lt;div&gt;prijs&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="JrFvl1hGiMh867X_fG7i-47">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-49" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERmandOne;rounded=0;elbow=vertical;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startFill=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="JrFvl1hGiMh867X_fG7i-48" target="JrFvl1hGiMh867X_fG7i-46">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="680" y="1280" as="sourcePoint" />
+            <mxPoint x="676" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-50" value="Aankoop" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1060" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-51" value="&lt;u&gt;datum_en_tijd&lt;/u&gt;&lt;div&gt;&lt;u&gt;klantcode&lt;/u&gt;&lt;/div&gt;&lt;div&gt;afreken_type&lt;/div&gt;&lt;div&gt;controle&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="JrFvl1hGiMh867X_fG7i-50">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-52" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERmandOne;rounded=0;elbow=vertical;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startFill=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="JrFvl1hGiMh867X_fG7i-44" target="JrFvl1hGiMh867X_fG7i-51">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="270" y="1210" as="sourcePoint" />
+            <mxPoint x="410" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-53" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERmandOne;rounded=0;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JrFvl1hGiMh867X_fG7i-51" target="JrFvl1hGiMh867X_fG7i-45">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="480" y="1230" as="sourcePoint" />
+            <mxPoint x="620" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-54" value="Actie" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1270" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-55" value="&lt;u&gt;actiecode&lt;/u&gt;&lt;div&gt;actietekst&lt;/div&gt;&lt;div&gt;aantal_producten&lt;/div&gt;&lt;div&gt;actie_prijs&lt;/div&gt;&lt;div&gt;startdatum&lt;/div&gt;&lt;div&gt;einddatum&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="JrFvl1hGiMh867X_fG7i-54">
+          <mxGeometry y="50" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-56" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;startArrow=ERzeroToMany;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;startFill=0;endFill=0;" edge="1" parent="1" source="JrFvl1hGiMh867X_fG7i-46" target="JrFvl1hGiMh867X_fG7i-55">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="420" y="1620" as="sourcePoint" />
+            <mxPoint x="520" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-57" value="past toe" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JrFvl1hGiMh867X_fG7i-56">
+          <mxGeometry x="-0.2357" y="1" relative="1" as="geometry">
+            <mxPoint x="8" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-58" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;elbow=vertical;endFill=0;" edge="1" parent="1" source="JrFvl1hGiMh867X_fG7i-48" target="JrFvl1hGiMh867X_fG7i-55">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="390" y="1600" as="sourcePoint" />
+            <mxPoint x="490" y="1500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="1450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-59" value="betreft" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JrFvl1hGiMh867X_fG7i-58">
+          <mxGeometry x="0.1723" y="1" relative="1" as="geometry">
+            <mxPoint x="-31" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-60" value="is gekocht tijdens" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="300" y="1330" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-61" value="bevat" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="490" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-62" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERzeroToMany;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;elbow=horizontal;" edge="1" parent="1" source="JrFvl1hGiMh867X_fG7i-47" target="JrFvl1hGiMh867X_fG7i-44">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="50" y="1620" as="sourcePoint" />
+            <mxPoint x="150" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-63" value="heeft als favoriet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JrFvl1hGiMh867X_fG7i-62">
+          <mxGeometry x="-0.28" y="1" relative="1" as="geometry">
+            <mxPoint x="51" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-64" value="Categorie" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1510" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-65" value="&lt;u&gt;categorie-naam&lt;/u&gt;&lt;div&gt;beschrijving&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="JrFvl1hGiMh867X_fG7i-64">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-66" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERzeroToMany;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;elbow=horizontal;" edge="1" parent="1" source="JrFvl1hGiMh867X_fG7i-64" target="JrFvl1hGiMh867X_fG7i-48">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="270" y="1750" as="sourcePoint" />
+            <mxPoint x="370" y="1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrFvl1hGiMh867X_fG7i-67" value="behoort tot" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JrFvl1hGiMh867X_fG7i-66">
+          <mxGeometry x="-0.2545" relative="1" as="geometry">
+            <mxPoint x="30" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
