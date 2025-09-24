@@ -1,0 +1,364 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Page-1" id="jCCvbZ4sklKdAlgP1G6j">
+    <mxGraphModel dx="1281" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tKDExkOav8Wvy1grO09F-1" value="0NF" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-2" value="Boek" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-3" value="BoekID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-4" value="Titel" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-5" value="Auteur" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-6" value="AuteurGeboortejaar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-7" value="Uitgever" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-10" value="UitgeverAdres" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-11" value="Lener" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-12" value="LenerAdres" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-13" value="Uitleendatum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-14" value="1NF" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-15" value="Boek" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-16" value="BoekID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-17" value="Titel" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-18" value="Auteur" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-19" value="AuteurGeboortejaar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-20" value="Uitgever" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-21" value="UitgeverAdres" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-22" value="Lener" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-23" value="LenerAdres" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-24" value="Uitleendatum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-25" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="80" as="sourcePoint" />
+            <mxPoint x="260" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-26" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="380" as="sourcePoint" />
+            <mxPoint x="270" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-27" value="BoekID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-28" value="BoekID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-29" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="240" as="sourcePoint" />
+            <mxPoint x="390" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-30" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="515" as="sourcePoint" />
+            <mxPoint x="390" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tKDExkOav8Wvy1grO09F-16" target="tKDExkOav8Wvy1grO09F-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="360" as="sourcePoint" />
+            <mxPoint x="280" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tKDExkOav8Wvy1grO09F-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="540" as="sourcePoint" />
+            <mxPoint x="210" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-33" value="Lening" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="265" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-34" value="Boek_Auteur" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="538" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-35" value="2NF" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-36" value="Boek" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1040" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-37" value="BoekID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-38" value="Titel" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-39" value="Auteur" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1165" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-40" value="AuteurGeboortejaar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1288" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-41" value="Uitgever" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-42" value="UitgeverAdres" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-43" value="Lener" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-44" value="LenerAdres" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-45" value="Uitleendatum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-46" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="1020" as="sourcePoint" />
+            <mxPoint x="290" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-47" value="BoekID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1165" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-48" value="BoekID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-49" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="880" as="sourcePoint" />
+            <mxPoint x="410" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-50" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="1155" as="sourcePoint" />
+            <mxPoint x="410" y="1155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tKDExkOav8Wvy1grO09F-37" target="tKDExkOav8Wvy1grO09F-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="1000" as="sourcePoint" />
+            <mxPoint x="300" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-52" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tKDExkOav8Wvy1grO09F-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="1180" as="sourcePoint" />
+            <mxPoint x="230" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-53" value="Lening" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="905" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-54" value="Boek_Auteur" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1178" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-55" value="Lener" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-56" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="750" as="sourcePoint" />
+            <mxPoint x="410" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tKDExkOav8Wvy1grO09F-43" target="tKDExkOav8Wvy1grO09F-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="900" as="sourcePoint" />
+            <mxPoint x="520" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-59" value="Lener" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="65" y="775" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-60" value="Auteur" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1288" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-61" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="1278" as="sourcePoint" />
+            <mxPoint x="410" y="1278" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-62" value="Auteur" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1318" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-63" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tKDExkOav8Wvy1grO09F-39" target="tKDExkOav8Wvy1grO09F-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="1260" as="sourcePoint" />
+            <mxPoint x="470" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-64" value="3NF" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="52.5" y="1430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-65" value="Boek" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="67.5" y="1820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-66" value="BoekID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="167.5" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-67" value="Titel" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-68" value="Auteur" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="2050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-69" value="AuteurGeboortejaar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="2173" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-70" value="Uitgever" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-71" value="UitgeverAdres" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="1930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-72" value="Lener" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-73" value="LenerAdres" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="1540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-74" value="Uitleendatum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-75" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="167.5" y="1800" as="sourcePoint" />
+            <mxPoint x="287.5" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-76" value="BoekID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="167.5" y="2050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-77" value="BoekID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="167.5" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-78" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="167.5" y="1660" as="sourcePoint" />
+            <mxPoint x="407.5" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-79" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="167.5" y="2040" as="sourcePoint" />
+            <mxPoint x="407.5" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-80" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tKDExkOav8Wvy1grO09F-66" target="tKDExkOav8Wvy1grO09F-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="247.5" y="1780" as="sourcePoint" />
+            <mxPoint x="297.5" y="1730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-81" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tKDExkOav8Wvy1grO09F-66" target="tKDExkOav8Wvy1grO09F-76">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="77.5" y="1960" as="sourcePoint" />
+            <mxPoint x="227.5" y="1940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-82" value="Lening" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="67.5" y="1685" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-83" value="Boek_Auteur" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="52.5" y="2063" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-84" value="Lener" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="1540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-85" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="287.5" y="1530" as="sourcePoint" />
+            <mxPoint x="407.5" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-86" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tKDExkOav8Wvy1grO09F-72" target="tKDExkOav8Wvy1grO09F-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="467.5" y="1680" as="sourcePoint" />
+            <mxPoint x="517.5" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-87" value="Lener" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="62.5" y="1555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-88" value="Auteur" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="2173" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-89" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="287.5" y="2163" as="sourcePoint" />
+            <mxPoint x="407.5" y="2163" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-90" value="Auteur" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="2203" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-91" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tKDExkOav8Wvy1grO09F-68" target="tKDExkOav8Wvy1grO09F-88">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="417.5" y="2145" as="sourcePoint" />
+            <mxPoint x="467.5" y="2095" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-92" value="Uitgever" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="1930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-93" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="1920" as="sourcePoint" />
+            <mxPoint x="530" y="1920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-94" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tKDExkOav8Wvy1grO09F-70" target="tKDExkOav8Wvy1grO09F-92">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="1900" as="sourcePoint" />
+            <mxPoint x="620" y="1850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKDExkOav8Wvy1grO09F-95" value="Uitgever" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="65" y="1948" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
