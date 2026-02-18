@@ -1,1 +1,3 @@
 *.bak
+*.bkp
+.DS_Store
