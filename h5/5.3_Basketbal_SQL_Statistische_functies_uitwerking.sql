@@ -39,6 +39,14 @@ HAVING `aantal_boetes` > 1;
 SELECT min(`bedrag`) AS "laagste_boete", max(`bedrag`) AS "hoogste_boete"
 FROM `Boete`;
 
+SELECT
+    concat_ws(" ", `voorletters`, `tussenvoegsel`, `achternaam`) AS naam,
+    min(`bedrag`) AS "laagste_boete",
+    max(`bedrag`) AS "hoogste_boete"
+FROM `Lid` JOIN `Boete`
+                ON `lidnr` = `lidnummer`
+GROUP BY `lidnr`;
+
 -- 8.	Geef van elk team de teamcode, het totaal aantal thuis gewonnen wedstrijden.
 SELECT `teamthuis`, count(*) AS "aantal_thuis_gewonnen_wedstrijden"
 FROM `Wedstrijd`
